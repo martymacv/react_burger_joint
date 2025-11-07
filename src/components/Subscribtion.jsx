@@ -11,11 +11,11 @@ function Subscribtion() {
             <Title
                 variant="h1">Подписывайся<br/>на наши обновления</Title>
             <Text>Узнай первым о старте<br/>скидок и специальных предложений!</Text>
-            <form method="POST" action="/"
+            <Form method="POST" action="/"
                 className="flex flex-row justify-center items-center gap-3">
-                <Input type="text" placeholder="Введите email"/>
+                <Input type="email" name="email" placeholder="Введите email"/>
                 <ActionButton type="submit">Подписаться</ActionButton>
-            </form>
+            </Form>
             <Span>Подписываясь рассылку, вы соглашаетесь<br />с <a href="#">Политикой конфиденциальности</a>.</Span>
         </div>
     )
